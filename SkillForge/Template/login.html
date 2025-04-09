@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillForge - Login & Sign Up</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Static/css/login.css" />
+</head>
+<body>
+    <div class="language-selector">
+        <select id="language" aria-label="Select Language">
+            <option value="en">🌐 English</option>
+            <option value="hi">🌐 हिंदी</option>
+            <option value="mr">🌐 मराठी</option>
+            <option value="ta">🌐 தமிழ்</option>
+            <option value="bn">🌐 বাংলা</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <span class="logo-icon"><i class="fas fa-hammer"></i></span>
+                <span class="logo-text">SkillForge</span>
+            </div>
+            <p class="tagline" id="tagline">Continue your Skill Path Journey</p>
+        </div>
+
+        <div class="tabs">
+            <div class="tab active" data-tab="login">Login</div>
+            <div class="tab" data-tab="signup">Sign Up</div>
+        </div>
+
+        <div class="form-container">
+            <!-- Login Form -->
+            <form id="loginForm" class="form active">
+                <div class="form-group">
+                    <label for="loginId">Phone / Email</label>
+                    <div class="input-group">
+                        <span class="icon"><i class="fas fa-user"></i></span>
+                        <input type="text" id="loginId" placeholder="Enter your phone or email">
+                        <div class="error-text">Please enter a valid phone number or email</div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <div class="input-group">
+                        <span class="icon"><i class="fas fa-lock"></i></span>
+                        <input type="password" id="loginPassword" placeholder="Enter your password">
+                        <span class="toggle-password"><i class="fas fa-eye"></i></span>
+                        <div class="error-text">Please enter your password</div>
+                    </div>
+                </div>
+
+                <button type="button" class="otp-toggle">Switch to OTP Login</button>
+
+                <div class="remember-forgot">
+                    <label class="remember-me">
+                        <input type="checkbox" id="rememberMe">
+                        <span>Remember Me</span>
+                    </label>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+
+                <button type="button" id="loginBtn" class="btn btn-primary">
+                    <span>Login</span>
+                    <div class="loader"></div>
+                </button>
+
+                <button type="button" class="btn btn-secondary">
+                    <i class="fas fa-user-secret"></i>
+                    <span>Login as Guest</span>
+                </button>
+
+                <div class="social-login">
+                    <p class="social-text">Or login with</p>
+                    <div class="social-buttons">
+                        <div class="social-btn google">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <div class="social-btn facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="social-btn digilocker">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="switch-form">
+                    <p>Don't have an account? <a href="#" class="switch-to-signup">Sign Up</a></p>
+                </div>
+            </form>
+
+            <!-- Sign Up Form -->
+            <form id="signupForm" class="form">
+                <div class="signup-steps">
+                    <!-- Step 1: Basic Info -->
+                    <div class="signup-step" id="step1">
+                        <h3>Let's build your SkillPath!</h3>
+                        <p class="tagline">Start your learning journey today</p>
+                        
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <div class="input-group">
+                                <span class="icon"><i class="fas fa-user"></i></span>
+                                <input type="text" id="fullName" placeholder="Enter your full name">
+                                <div class="error-text">Please enter your full name</div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phoneNumber">Phone Number</label>
+                            <div class="input-group">
+                                <span class="icon"><i class="fas fa-phone"></i></span>
+                                <input type="tel" id="phoneNumber" placeholder="Enter your phone number">
+                                <div class="error-text">Please enter a valid phone number</div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="signupPassword">Password</label>
+                            <div class="input-group">
+                                <span class="icon"><i class="fas fa-lock"></i></span>
+                                <input type="password" id="signupPassword" placeholder="Create a password">
+                                <span class="toggle-password"><i class="fas fa-eye"></i></span>
+                            </div>
+                            <div class="password-strength">
+                                <div class="password-strength-meter"></div>
+                            </div>
+                            <div class="password-strength-text"></div>
+                        </div>
+
+                        <div class="step-buttons">
+                            <button type="button" class="step-btn next">Next</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Preferences -->
+                    <div class="signup-step" id="step2">
+                        <h3>Your preferences</h3>
+                        <p class="tagline">Customize your learning experience</p>
+                        
+                        <div class="form-group">
+                            <label for="preferredLanguage">Preferred Language</label>
+                            <div class="input-group">
+                                <span class="icon"><i class="fas fa-language"></i></span>
+                                <select id="preferredLanguage">
+                                    <option value="">Select your preferred language</option>
+                                    <option value="en">English</option>
+                                    <option value="hi">Hindi</option>
+                                    <option value="mr">Marathi</option>
+                                    <option value="ta">Tamil</option>
+                                    <option value="bn">Bengali</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Career Interest</label>
+                            <div class="input-group">
+                                <span class="icon"><i class="fas fa-briefcase"></i></span>
+                                <input type="text" id="careerInterest" placeholder="Search career interests">
+                            </div>
+                            <div class="career-tags">
+                                <div class="career-tag" data-value="electrician">Electrician</div>
+                                <div class="career-tag" data-value="dataentry">Data Entry</div>
+                                <div class="career-tag" data-value="plumber">Plumber</div>
+                                <div class="career-tag" data-value="cooking">Cooking</div>
+                                <div class="career-tag" data-value="programming">Programming</div>
+                            </div>
+                        </div>
+
+                        <div class="step-buttons">
+                            <button type="button" class="step-btn prev">Back</button>
+                            <button type="button" class="step-btn next">Next</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Terms & Final -->
+                    <div class="signup-step" id="step3">
+                        <h3>Almost there!</h3>
+                        <p class="tagline">Just one more step to get started</p>
+                        
+                        <div class="form-group">
+                            <label>Learning Preference</label>
+                            <div class="career-tags">
+                                <div class="career-tag" data-value="video">Video</div>
+                                <div class="career-tag" data-value="audio">Audio</div>
+                                <div class="career-tag" data-value="text">Text</div>
+                                <div class="career-tag" data-value="interactive">Interactive</div>
+                            </div>
+                        </div>
+                                <span class="terms-text">I agree to the <a href="#">Terms & Conditions</a></span>
+                        <div class="form-group">
+                            <label class="remember-me">
+                                <input type="checkbox" id="termsAgree">
+                                <span>I agree to the <a href="#">Terms & Conditions</a></span>
+                            </label>
+                            <div class="error-text">You must agree to the terms</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="remember-me">
+                                <input type="checkbox" id="enableOffline">
+                                <span>Enable offline mode for learning on the go</span>
+                            </label>
+                        </div>
+
+                        <div class="step-buttons">
+                            <button type="button" class="step-btn prev">Back</button>
+                            <button type="button" id="createAccountBtn" class="step-btn next">Create Account</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="multi-step">
+                    <div class="step-dot active"></div>
+                    <div class="step-dot"></div>
+                    <div class="step-dot"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+<script src="/Static/js/login.js"></script>
+</html>
