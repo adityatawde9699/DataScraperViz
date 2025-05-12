@@ -1,6 +1,6 @@
-# 📈 MarketIntelSuite
+# 📈 DataScraperViz
 
-**MarketIntelSuite** is a Python-based project that scrapes and analyzes real-time stock market data and job listings from LinkedIn. It provides rich visual insights using both static and interactive visualizations.
+**DataScraperViz** is a Python-based project that scrapes and analyzes real-time stock market data and job listings from LinkedIn. It provides rich visual insights using both static and interactive visualizations.
 
 Built with data science tools like **yFinance**, **Selenium**, **Matplotlib**, **Seaborn**, and **Plotly**, this suite serves as a practical demonstration of web scraping, data cleaning, and data visualization.
 
