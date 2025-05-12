@@ -105,7 +105,7 @@ Use a `.env` file or config manager instead.
 **Aditya Tawde**  
 B.Tech in AI & Data Science  
 Jawaharlal Nehru Engineering College, MGMU  
-[GitHub](https://github.com/adityatawde) • [LinkedIn](https://linkedin.com/in/adityatawde)
+[GitHub](https://github.com/adityatawde9699) • [LinkedIn](https://www.linkedin.com/in/aditya-s-tawde-7a1392315?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BiJCrjr%2FTQJWM6iTXo52upQ%3D%3D)
 
 ---
 
