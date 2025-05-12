@@ -1,34 +1,114 @@
-🚀 NeuraByte SkillForge
-An open-source, mobile-first AI solution to bridge the skill gap for India's youth — multilingual, personalized, and industry-aligned.
-Built for the **Pragati AI for Impact Hackathon 2025** under the domain **Skilling**, powered by Meta LLMs.
+# 📈 MarketIntelSuite
 
-🧠 Problem Statement
-How might we leverage open-source AI to revolutionize skill development for India's youth, bridging the critical gap between current capabilities and rapidly evolving industry demands — while ensuring inclusive access across socioeconomic barriers?
+**MarketIntelSuite** is a Python-based project that scrapes and analyzes real-time stock market data and job listings from LinkedIn. It provides rich visual insights using both static and interactive visualizations.
 
-🎯 Our Solution
-SkillForge is an adaptive AI-powered platform that:
-📌 Generates **job-role-based personalized learning paths**
-🌐 Supports **multilingual content delivery** in major Indian languages
-🧩 Offers **gamified learning** with rewards and tasks
-📈 Maps **skills to real job roles** using live market trends
-📲 Works **offline & on low-end smartphones**
-🧑‍🏫 Enables **community collaboration** and content contribution
-🤖 Leverages **Meta’s open-source LLMs** for guidance, translation & assessment
+Built with data science tools like **yFinance**, **Selenium**, **Matplotlib**, **Seaborn**, and **Plotly**, this suite serves as a practical demonstration of web scraping, data cleaning, and data visualization.
 
-🔥 Key Features
-Feature	Description
-🌍 Multilingual - Support	Personalized content delivery in major Indian languages
-🛠️ Job Role-Based - Learning	AI-curated learning paths tailored to user-selected career goals
-🎮 Gamification -	Tasks, challenges, leaderboards, and rewards to boost engagement
-🧠 Skill-to-Job Engine -	Recommends skills aligned with current market trends and job demands
-📶 Offline Capability	 - Lightweight, mobile-first design for rural or low-connectivity users
-🤖 AI Chat Assistant - 	24/7 multilingual guidance using Meta’s open-source LLMs
+---
 
-🛠️ Tech Stack
-Frontend: HTML5, CSS3, JavaScript (Vanilla or React)
-Backend: Python (Flask/FastAPI)
-AI/LLM: Meta’s Llama 2 / Code Llama / NLLB-200 for translation
-Gamification & Logic: Python, Firebase/SQLite
-Cloud Infra: Hugging Face Inference API, GitHub Pages, Render/Vercel (optional)
-Storage: Firebase / SQLite / LocalStorage
-Version Control: Git + GitHub
+## 🚀 Features
+
+### 🧾 Stock Market Scraper
+- Scrapes real-time data using `yfinance`
+- Extracts financial indicators like:
+  - Company name
+  - Stock price
+  - Market cap
+  - Volume
+  - P/E Ratio
+- Saves output to a structured CSV
+
+### 📊 Data Visualization
+- Uses `Matplotlib`, `Seaborn`, and `Plotly`
+- Generates:
+  - 📌 Market cap distribution by sector
+  - 📌 Top 10 companies by market cap
+  - 📌 Stock price vs trading volume (interactive)
+  - 📌 PE ratio distribution by sector
+
+### 💼 LinkedIn Job Scraper
+- Automates job search on LinkedIn using `Selenium`
+- Searches for roles like *Data Scientist*, *AI Engineer*, and *Full-Stack Developer* across countries
+- Extracts:
+  - Job title
+  - Company name
+  - Location
+  - Job link
+- Saves job data to CSV
+
+---
+
+## 🗂 Directory Structure
+
+```
+MarketIntelSuite/
+│
+├── Stocks_scraper.py         # Scrapes stock data
+├── visulize_data.py          # Generates plots and visualizations
+├── Job_scraper.py            # Automates job search and scraping
+├── requirements.txt          # Dependencies
+├── README.md                 # You're here!
+├── data/                     # (Optional) CSV and screenshot output folder
+└── outputs/                  # PNG/HTML visualizations
+```
+
+---
+
+## 🛠 Requirements
+
+Install all required libraries with:
+
+```bash
+pip install -r requirements.txt
+```
+
+OR use `pipreqs` to generate it:
+
+```bash
+pipreqs . --force
+```
+
+Main dependencies:
+- `yfinance`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `plotly`
+- `selenium`
+
+---
+
+## 🔐 Security Warning
+
+> ⚠️ Never upload your personal LinkedIn credentials to a public repo!  
+Use a `.env` file or config manager instead.
+
+---
+
+## 💡 Use Cases
+
+- Resume project to demonstrate scraping + data viz skills
+- Academic portfolio for Data Science / AI internships
+- Financial & market research exploration
+- Career trend analysis across job roles
+
+---
+
+## 📸 Screenshots
+
+
+
+---
+
+## ✍️ Author
+
+**Aditya Tawde**  
+B.Tech in AI & Data Science  
+Jawaharlal Nehru Engineering College, MGMU  
+[GitHub](https://github.com/adityatawde) • [LinkedIn](https://linkedin.com/in/adityatawde)
+
+---
+
+## 📌 License
+
+This project is open source and available under the [MIT License](LICENSE).
