@@ -41,7 +41,7 @@ Built with data science tools like **yFinance**, **Selenium**, **Matplotlib**, *
 ## 🗂 Directory Structure
 
 ```
-MarketIntelSuite/
+DataScraperViz/
 │
 ├── Stocks_scraper.py         # Scrapes stock data
 ├── visulize_data.py          # Generates plots and visualizations
