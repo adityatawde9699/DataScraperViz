@@ -95,6 +95,7 @@ Use a `.env` file or config manager instead.
 ---
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/e2760168-b886-4f4d-9877-53b1ad6ec722)
 
 
 
