@@ -12,7 +12,7 @@ class StockScraper:
         Initialize the stock scraper with Alpha Vantage API.
         """
         self.symbols = symbols or ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'META']
-        self.api_key = "FXLR73NAXQWYI2SC"  # Your Alpha Vantage API key
+        self.api_key = "Alpha Vantage api key"  # Your Alpha Vantage API key
         self.base_url = "https://www.alphavantage.co/query"
         
         # Create necessary directories
