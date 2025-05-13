@@ -1,0 +1,5 @@
+symbol,current_price,market_cap,volume,pe_ratio,company_name,sector,timestamp
+IBM,253.6900,$235.78B,4609520,43.37,International Business Machines,TECHNOLOGY,2025-05-13 22:58:35
+ORCL,157.2200,$440.88B,7875461,36.99,Oracle Corporation,TECHNOLOGY,2025-05-13 22:59:07
+CSCO,61.6700,$245.34B,23699990,27.05,Cisco Systems Inc,TECHNOLOGY,2025-05-13 22:59:39
+ADBE,N/A,N/A,N/A,N/A,N/A,N/A,2025-05-13 23:00:11

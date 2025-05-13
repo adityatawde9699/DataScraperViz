@@ -1,0 +1,144 @@
+2025-05-13 00:13:23,023 - INFO - Starting stock data collection...
+2025-05-13 00:13:23,024 - INFO - Fetching data for AAPL
+2025-05-13 00:13:40,082 - ERROR - Error fetching data for AAPL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:13:40,083 - INFO - Fetching data for GOOGL
+2025-05-13 00:13:52,050 - ERROR - Error fetching data for GOOGL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:13:52,051 - INFO - Fetching data for MSFT
+2025-05-13 00:14:06,990 - ERROR - Error fetching data for MSFT: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:14:06,990 - INFO - Fetching data for AMZN
+2025-05-13 00:14:20,526 - ERROR - Error fetching data for AMZN: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:14:20,527 - INFO - Fetching data for META
+2025-05-13 00:15:10,751 - INFO - Starting stock data collection...
+2025-05-13 00:15:10,753 - INFO - Fetching data for AAPL
+2025-05-13 00:15:16,534 - ERROR - Error fetching data for AAPL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:15:16,534 - INFO - Fetching data for GOOGL
+2025-05-13 00:15:21,151 - ERROR - Error fetching data for GOOGL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:15:21,152 - INFO - Fetching data for MSFT
+2025-05-13 00:15:25,667 - ERROR - Error fetching data for MSFT: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:15:25,667 - INFO - Fetching data for AMZN
+2025-05-13 00:15:30,265 - ERROR - Error fetching data for AMZN: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:15:30,266 - INFO - Fetching data for META
+2025-05-13 00:15:35,209 - ERROR - Error fetching data for META: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:15:35,210 - INFO - Fetching data for TSLA
+2025-05-13 00:15:42,963 - ERROR - Error fetching data for TSLA: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:15:42,964 - INFO - Fetching data for NFLX
+2025-05-13 00:15:47,162 - ERROR - Error fetching data for NFLX: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:15:47,163 - INFO - Fetching data for NVDA
+2025-05-13 00:15:51,763 - ERROR - Error fetching data for NVDA: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:15:51,763 - INFO - Fetching data for AMD
+2025-05-13 00:15:57,813 - ERROR - Error fetching data for AMD: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:15:57,814 - INFO - Fetching data for INTC
+2025-05-13 00:16:08,047 - ERROR - Error fetching data for INTC: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:16:08,048 - INFO - Fetching data for IBM
+2025-05-13 00:16:20,856 - ERROR - Error fetching data for IBM: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:16:20,856 - INFO - Fetching data for ORCL
+2025-05-13 00:16:36,627 - ERROR - Error fetching data for ORCL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:16:36,628 - INFO - Fetching data for CSCO
+2025-05-13 00:16:43,007 - ERROR - Error fetching data for CSCO: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:16:43,008 - INFO - Fetching data for ADBE
+2025-05-13 00:16:53,232 - ERROR - Error fetching data for ADBE: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:16:53,232 - INFO - Fetching data for BRK.A
+2025-05-13 00:17:02,662 - ERROR - Error fetching data for BRK.A: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:17:02,663 - INFO - Fetching data for BRK.B
+2025-05-13 00:17:14,017 - ERROR - Error fetching data for BRK.B: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:17:14,018 - INFO - Fetching data for JPM
+2025-05-13 00:17:19,403 - ERROR - Error fetching data for JPM: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:17:19,403 - INFO - Fetching data for GS
+2025-05-13 00:17:23,548 - ERROR - Error fetching data for GS: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:17:23,548 - INFO - Fetching data for BAC
+2025-05-13 00:17:29,392 - ERROR - Error fetching data for BAC: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:17:29,392 - INFO - Fetching data for V
+2025-05-13 00:17:38,571 - ERROR - Error fetching data for V: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:17:38,572 - INFO - Fetching data for MA
+2025-05-13 00:17:44,807 - ERROR - Error fetching data for MA: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:17:44,807 - INFO - Fetching data for PFE
+2025-05-13 00:17:55,538 - ERROR - Error fetching data for PFE: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:17:55,538 - INFO - Fetching data for JNJ
+2025-05-13 00:20:34,632 - INFO - Starting stock data collection...
+2025-05-13 00:20:34,639 - INFO - Fetching data for AAPL
+2025-05-13 00:20:41,722 - ERROR - Error fetching data for AAPL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:20:41,722 - INFO - Fetching data for GOOGL
+2025-05-13 00:20:44,560 - ERROR - Error fetching data for GOOGL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:20:44,561 - INFO - Fetching data for MSFT
+2025-05-13 00:20:47,843 - ERROR - Error fetching data for MSFT: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:20:47,844 - INFO - Fetching data for AMZN
+2025-05-13 00:20:51,453 - ERROR - Error fetching data for AMZN: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:20:51,455 - INFO - Fetching data for META
+2025-05-13 00:20:55,036 - ERROR - Error fetching data for META: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:20:55,036 - INFO - Fetching data for TSLA
+2025-05-13 00:20:57,373 - ERROR - Error fetching data for TSLA: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:20:57,373 - INFO - Fetching data for NFLX
+2025-05-13 00:21:00,752 - ERROR - Error fetching data for NFLX: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:21:00,752 - INFO - Fetching data for NVDA
+2025-05-13 00:21:03,190 - ERROR - Error fetching data for NVDA: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:21:03,191 - INFO - Fetching data for AMD
+2025-05-13 00:21:05,546 - ERROR - Error fetching data for AMD: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:21:05,547 - INFO - Fetching data for INTC
+2025-05-13 00:21:08,061 - ERROR - Error fetching data for INTC: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:21:08,202 - INFO - Fetching data for IBM
+2025-05-13 00:21:11,609 - ERROR - Error fetching data for IBM: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:21:11,610 - INFO - Fetching data for ORCL
+2025-05-13 00:21:14,351 - ERROR - Error fetching data for ORCL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:21:14,351 - INFO - Fetching data for CSCO
+2025-05-13 00:21:16,810 - ERROR - Error fetching data for CSCO: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:21:16,811 - INFO - Fetching data for ADBE
+2025-05-13 00:21:19,130 - ERROR - Error fetching data for ADBE: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 00:21:19,130 - ERROR - No stock data collected
+2025-05-13 22:07:36,180 - INFO - Starting stock data collection...
+2025-05-13 22:07:36,181 - INFO - Fetching data for AAPL
+2025-05-13 22:07:41,227 - ERROR - Error fetching data for AAPL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:07:41,227 - INFO - Fetching data for GOOGL
+2025-05-13 22:07:44,038 - ERROR - Error fetching data for GOOGL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:07:44,038 - INFO - Fetching data for MSFT
+2025-05-13 22:07:47,580 - ERROR - Error fetching data for MSFT: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:07:47,580 - INFO - Fetching data for AMZN
+2025-05-13 22:07:50,875 - ERROR - Error fetching data for AMZN: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:07:50,875 - INFO - Fetching data for META
+2025-05-13 22:07:54,729 - ERROR - Error fetching data for META: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:07:54,731 - INFO - Fetching data for TSLA
+2025-05-13 22:07:57,608 - ERROR - Error fetching data for TSLA: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:07:57,609 - INFO - Fetching data for NFLX
+2025-05-13 22:08:00,656 - ERROR - Error fetching data for NFLX: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:08:00,656 - INFO - Fetching data for NVDA
+2025-05-13 22:08:03,162 - ERROR - Error fetching data for NVDA: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:08:03,162 - INFO - Fetching data for AMD
+2025-05-13 22:08:05,686 - ERROR - Error fetching data for AMD: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:08:05,687 - INFO - Fetching data for INTC
+2025-05-13 22:08:09,582 - ERROR - Error fetching data for INTC: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:08:09,582 - INFO - Fetching data for IBM
+2025-05-13 22:08:12,633 - ERROR - Error fetching data for IBM: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:08:12,634 - INFO - Fetching data for ORCL
+2025-05-13 22:08:15,838 - ERROR - Error fetching data for ORCL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:08:15,838 - INFO - Fetching data for CSCO
+2025-05-13 22:08:18,549 - ERROR - Error fetching data for CSCO: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:08:18,549 - INFO - Fetching data for ADBE
+2025-05-13 22:08:21,769 - ERROR - Error fetching data for ADBE: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:08:21,770 - ERROR - No stock data collected
+2025-05-13 22:10:40,492 - INFO - Starting stock data collection...
+2025-05-13 22:10:40,493 - INFO - Fetching data for AAPL
+2025-05-13 22:10:46,291 - ERROR - Error fetching data for AAPL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:10:46,291 - INFO - Fetching data for GOOGL
+2025-05-13 22:10:50,770 - ERROR - Error fetching data for GOOGL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:10:50,770 - INFO - Fetching data for MSFT
+2025-05-13 22:22:01,548 - INFO - Starting stock data collection...
+2025-05-13 22:22:14,651 - WARNING - Retrying AAPL in 10s...
+2025-05-13 22:22:36,631 - WARNING - Retrying AAPL in 20s...
+2025-05-13 22:23:09,930 - ERROR - Error fetching data for AAPL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:23:09,930 - WARNING - Skipping AAPL due to data retrieval error.
+2025-05-13 22:23:21,998 - WARNING - Retrying GOOGL in 10s...
+2025-05-13 22:23:43,691 - WARNING - Retrying GOOGL in 20s...
+2025-05-13 22:24:14,732 - ERROR - Error fetching data for GOOGL: Too Many Requests. Rate limited. Try after a while.
+2025-05-13 22:24:14,733 - WARNING - Skipping GOOGL due to data retrieval error.
+2025-05-13 22:24:25,096 - WARNING - Retrying MSFT in 10s...
+2025-05-13 22:28:02,537 - INFO - Starting stock data collection...
+2025-05-13 22:28:02,539 - INFO - Attempting bulk download...
+2025-05-13 22:28:17,821 - ERROR - 
+5 Failed downloads:
+2025-05-13 22:28:17,821 - ERROR - ['AMZN', 'AAPL', 'GOOGL', 'MSFT', 'META']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-13 22:28:30,861 - WARNING - Retrying AAPL in 15s... (Attempt 1)
+2025-05-13 22:51:28,264 - INFO - Starting stock data collection with Alpha Vantage...
+2025-05-13 22:53:52,168 - INFO - Successfully saved data for 5 stocks
+2025-05-13 22:54:52,202 - INFO - Starting stock data collection with Alpha Vantage...
+2025-05-13 22:57:18,275 - INFO - Successfully saved data for 5 stocks
+2025-05-13 22:58:18,278 - INFO - Starting stock data collection with Alpha Vantage...
+2025-05-13 23:00:11,380 - INFO - Successfully saved data for 4 stocks
