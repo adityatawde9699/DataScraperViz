@@ -9,7 +9,7 @@ Built with data science tools like **yFinance**, **Selenium**, **Matplotlib**, *
 ## 🚀 Features
 
 ### 🧾 Stock Market Scraper
-- Scrapes real-time data using `yfinance`
+- Scrapes real-time data using `Alpha Vantage`
 - Extracts financial indicators like:
   - Company name
   - Stock price
@@ -69,7 +69,7 @@ pipreqs . --force
 ```
 
 Main dependencies:
-- `yfinance`
+- `Alpha Vantage`
 - `pandas`
 - `matplotlib`
 - `seaborn`
